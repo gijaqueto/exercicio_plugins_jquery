@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(190, 160, 214);
+
 }
 
 header {
@@ -18,25 +19,31 @@ form {
     text-align: center;
 }
 
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
 input, button {
     padding: 6px;
 }
 
-input {
+.form-campo input {
     background-color: #fff;
+    width: 50%;
+    padding: 8px;
+    max-width: 360px;
 }
 
 button {
-    background-color: #acacac;
+    background-color: #562964;
     border: none;
     cursor: pointer;
     font-weight: bold;
-}
-
-ul {
-    flex-wrap: wrap;
-}
-
-ul li {
-    text-align: center;
+    margin-top: 24px;
+    width: 120px;
 }
