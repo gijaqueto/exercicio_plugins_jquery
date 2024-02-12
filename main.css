@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(197, 197, 197);
+}
+
+header {
+    padding: 16px;
+    display: flex;
+    border-bottom: 16px;
+    justify-content: center;
+}
+
+form {
+    padding: 12px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 6px;
+}
+
+input {
+    background-color: #fff;
+}
+
+button {
+    background-color: #acacac;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    flex-wrap: wrap;
+}
+
+ul li {
+    text-align: center;
+}
